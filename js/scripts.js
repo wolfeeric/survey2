@@ -5,7 +5,7 @@ $(document).ready(function(){
     var userSound = $("input:radio[name=sound]:checked").val();
     var userCars = $("input:radio[name=cars]:checked").val();
     var result = userColor + " " + userSound + " " + userCars;
-
+    console.log(result);
     //$("#output").text(result).show();
     //$(".hidden").text(result).show();
 
